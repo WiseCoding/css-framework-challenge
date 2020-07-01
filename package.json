@@ -1,0 +1,25 @@
+{
+  "name": "css-framework-challenge",
+  "version": "1.0.0",
+  "description": "Re-create 2 websites by using a framework of choice",
+  "main": "index.js",
+  "scripts": {
+    "build": "postcss styles/tailwind.css -o styles/index.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WiseCoding/css-framework-challenge.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/WiseCoding/css-framework-challenge/issues"
+  },
+  "homepage": "https://github.com/WiseCoding/css-framework-challenge#readme",
+  "dependencies": {
+    "autoprefixer": "^9.8.4",
+    "postcss-cli": "^7.1.1",
+    "tailwindcss": "^1.4.6"
+  }
+}

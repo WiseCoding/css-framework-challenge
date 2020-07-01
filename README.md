@@ -1,7 +1,6 @@
 ## CSS Framework Challenge
 
-Mock-up exercise to test HTML & CSS skills.
-Re-create 3 interfaces based on 3 images. Make it look pixel perfect. Use only HTML & CSS (SCSS).
+Re-create 2 websites by using a framework of choice
 
 ## View Exercises Online
 
