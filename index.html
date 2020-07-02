@@ -11,14 +11,223 @@
     <link rel="stylesheet" type="text/css" href="styles/index.css" />
   </head>
 
-  <body>
-    <header class="text-4xl font-bold text-center text-blue-500">HeaderText</header>
-    <nav></nav>
-    <h1></h1>
-    <main></main>
-    <article></article>
-    <section></section>
-    <aside></aside>
-    <footer></footer>
+  <body class="box-border max-w-screen-lg m-auto">
+    <header class="bg-head-grey text-white px-16">
+      <div class="flex flex-row flex-wrap justify-between py-5">
+        <img src="" alt="THE LOGO" class="bg-gray-700 p-1 px-2 rounded-sm" />
+        <div>
+          <a href="#" class="text-xs hover:bg-blue-700 text-white py-1 px-2 rounded-full">SUPPORT</a>
+          <a
+            href="#"
+            class="text-xs bg-gray-700 bg-opacity-50 hover:bg-blue-700 text-white py-1 px-2 rounded-full"
+            >LOG IN</a
+          >
+        </div>
+      </div>
+
+      <div class="flex flex-row flex-wrap">
+        <div class="flex-initial max-w-screen-sm self-center lg:w-1/2">
+          <h1 class="text-4xl leading-tight">Lorem ipsum dolor sit amet consectetur</h1>
+          <p class="text-1xl my-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus similique eveniet possimus
+            voluptatem saepe, veritatis modi eligendi
+          </p>
+          <ul class="list-disc list-inside text-xs my-1">
+            <li>Lorem ipsum dolor sit amet consectetur, adipisicing elit</li>
+            <li>Ullam, possimus unde animi ipsam id maiores corporis</li>
+            <li>Atque delectus, minus, omnis libero eum quisquam exercitationem</li>
+          </ul>
+          <div class="mt-4">
+            <button class="text-xs bg-red-700 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full">
+              MAIN CTA BUTTON
+            </button>
+            <button
+              class="ml-3 text-xs bg-gray-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded-full"
+            >
+              LEARN MORE
+            </button>
+          </div>
+        </div>
+        <img class="flex-initial mx-auto lg:w-1/2" src="images/ex1/head.png" />
+      </div>
+    </header>
+
+    <nav class="flex flex-row flex-wrap justify-between px-16 py-5 border border-gray-300 text-sm">
+      <img src="" alt="THE LOGO" class="bg-gray-700 p-1 px-2 rounded-sm text-white" />
+      <div class="text-head-grey items-center">
+        <a href="#" class="px-2 py-1 hover:bg-blue-700 hover:text-white rounded-full">Overview</a>
+        <a href="#" class="px-2 py-1 hover:bg-blue-700 hover:text-white rounded-full">One-on-One</a>
+        <a href="#" class="px-2 py-1 hover:bg-blue-700 hover:text-white rounded-full">Testimonials</a>
+        <a href="#" class="px-2 py-1 hover:bg-blue-700 hover:text-white rounded-full">More</a>
+        <button class="text-xs bg-red-700 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-4 rounded-full">
+          MAIN CTA BUTTON
+        </button>
+      </div>
+    </nav>
+
+    <main>
+      <section title="1" class="border border-gray-300 px-16 py-10">
+        <div class="flex flex-row flex-wrap py-5 justify-center">
+          <div class="self-center md:w-7/12">
+            <p class="text-xs text-red-600">Lorem ipsum dolor</p>
+            <h2 class="text-xl text-blue-800 mt-1 mb-3">Learn what you need to know</h2>
+            <p class="text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt repellendus harum consectetur,
+              in, dicta ex est sequi eligendi qui voluptate quam natus non modi necessitatibus labore.
+              Aspernatur corrupti animi rem!
+            </p>
+          </div>
+          <img
+            class="md:w-5/12 h-16 object-contain self-center hidden md:block"
+            src="images/ex1/s1i1.jpg"
+            alt="Floating balls next to a questionmark"
+            title="Floating Questionmark"
+          />
+        </div>
+
+        <div class="flex flex-row flex-wrap py-5 justify-center">
+          <img
+            class="md:w-5/12 h-32 self-center object-contain hidden md:block"
+            src="images/ex1/s1i2.jpg"
+            alt="Notepad with lines of text that are marked by a V"
+            title="Notepad"
+          />
+          <div class="md:w-7/12 self-center">
+            <p class="text-xs text-red-600">Sit amet consectetur</p>
+            <h2 class="text-xl text-blue-800 mt-1 mb-3">Class aptent tacitic sociousqy</h2>
+            <p class="text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Dignissimos nam tenetur autem nulla,
+              nihil molestiae quas officiis, expedita labore ut eaque consequatur ipsa officia. Consequuntur
+              reprehenderit debitis veniam odit voluptas.
+            </p>
+          </div>
+        </div>
+
+        <div class="flex flex-row flex-wrap py-5 justify-center">
+          <div class="md:w-7/12 self-center">
+            <p class="text-xs text-red-600">Modi a facere voluptatum!</p>
+            <h2 class="text-xl text-blue-800 mt-1 mb-3">A guarantee our competitors wouldn't dare make</h2>
+            <p class="text-xs">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id vel quisquam dolores iusto
+              excepturi corporis at consequuntur. Eaque tempore debitis neque voluptatibus sequi dolorum non
+              ipsum quas consequuntur dolore.
+            </p>
+          </div>
+          <img
+            class="md:w-5/12 h-40 self-center object-contain hidden md:block"
+            src="images/ex1/s1i3.jpg"
+            alt="Circle that has a guatantee +50 written in it"
+            title="Guarantee"
+          />
+        </div>
+      </section>
+
+      <section title="2" class="border border-gray-300 px-16 py-10">
+        <h2 class="text-head-grey text-2xl text-center mt-10 mb-2">One-on-One</h2>
+        <div title="2.1" class="flex flex-row flex-wrap items-center">
+          <div title="2.1.1" class="md:w-1/2 flex flex-row flex-wrap md:pr-6 py-5">
+            <div class="sm:w-9/12">
+              <p class="text-xs text-red-600">Conventional format</p>
+              <h2 class="text-xl text-blue-800 mt-1 mb-3">Dialogue with a tutor</h2>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id vel quisquam dolores iusto
+                excepturi corporis at consequuntur. Eaque tempore debitis neque voluptatibus sequi dolorum non
+                ipsum quas consequuntur dolore.
+              </p>
+            </div>
+            <img
+              class="sm:w-3/12 h-20 object-contain self-center hidden sm:block"
+              src="images/ex1/s2i1.jpg"
+              alt="Grey text bubble"
+              title="Text Bubble"
+            />
+          </div>
+
+          <div title="2.1.2" class="md:w-1/2 flex flex-row flex-wrap md:pl-6 py-5">
+            <div class="sm:w-9/12">
+              <p class="text-xs text-red-600">One on one tutor sessions</p>
+              <h2 class="text-xl text-blue-800 mt-1 mb-3">Personalised support</h2>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id vel quisquam dolores iusto
+                excepturi corporis at consequuntur. Eaque tempore debitis neque voluptatibus sequi dolorum non
+                ipsum quas consequuntur dolore.
+              </p>
+            </div>
+            <img
+              class="sm:w-3/12 h-20 object-contain self-center hidden sm:block"
+              src="images/ex1/s2i2.jpg"
+              alt="Grey computer screen icon"
+              title="Screen"
+            />
+          </div>
+        </div>
+
+        <div title="2.2" class="flex flex-row flex-wrap items-center">
+          <div title="2.2.1" class="md:w-1/2 flex flex-row flex-wrap md:pr-6 py-5">
+            <div class="sm:w-9/12">
+              <p class="text-xs text-red-600">Dashboard</p>
+              <h2 class="text-xl text-blue-800 mt-1 mb-3">Keep track of your progress</h2>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id vel quisquam dolores iusto
+                excepturi corporis at consequuntur. Eaque tempore debitis neque voluptatibus sequi dolorum non
+                ipsum quas consequuntur dolore.
+              </p>
+            </div>
+            <img
+              class="sm:w-3/12 h-20 object-contain self-center hidden sm:block"
+              src="images/ex1/s2i3.jpg"
+              alt="Grey bar chart icon"
+              title="Bar Chart"
+            />
+          </div>
+
+          <div title="2.2.2" class="md:w-1/2 flex flex-row flex-wrap md:pl-6 py-5">
+            <div class="sm:w-9/12">
+              <p class="text-xs text-red-600">Ask a tutor</p>
+              <h2 class="text-xl text-blue-800 mt-1 mb-3">Get answers from the experts</h2>
+              <p class="text-xs">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat id vel quisquam dolores iusto
+                excepturi corporis at consequuntur. Eaque tempore debitis neque voluptatibus sequi dolorum non
+                ipsum quas consequuntur dolore.
+              </p>
+            </div>
+            <img
+              class="sm:w-3/12 h-16 object-contain self-center hidden sm:block"
+              src="images/ex1/s2i4.jpg"
+              alt="Grey Q&A stack icon"
+              title="Q&A Stack"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section title="3" class="border border-gray-300 px-16 py-10">
+        <h2 class="text-head-grey text-2xl text-center mt-10 mb-2">Testimonials</h2>
+        <div></div>
+        <div></div>
+        <div></div>
+      </section>
+
+      <section title="4" class="border border-gray-300 px-16 py-10">
+        <h2 class="text-head-grey text-2xl text-center mt-10 mb-2">Wait, there's more!</h2>
+        <div></div>
+        <div></div>
+        <div></div>
+
+        <div>
+          <button
+            class="text-xs bg-red-700 hover:bg-blue-700 text-white font-bold py-2 px-4 ml-4 rounded-full"
+          >
+            IT'S A REALLY BIG CTA
+          </button>
+          <p>Try free for 7 days with no commitment</p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="bg-head-grey">
+      <p>FOOTER MATERIAL</p>
+    </footer>
+    <img src="images/ex1.png" alt="logo" />
   </body>
 </html>
