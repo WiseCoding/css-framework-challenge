@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/WiseCoding/css-framework-challenge#readme",
   "dependencies": {
+    "@fullhuman/postcss-purgecss": "^2.3.0",
     "autoprefixer": "^9.8.4",
     "postcss-cli": "^7.1.1",
     "tailwindcss": "^1.4.6"
