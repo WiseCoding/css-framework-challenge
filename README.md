@@ -4,8 +4,8 @@ Re-create 2 websites by using a framework of choice
 
 ## View Exercises Online
 
-- [Exercise 1](https://wisecoding.github.io/css-framework-challenge/index.html)
-- [Exercise 2](https://wisecoding.github.io/css-framework-challenge/part2.html)
+- [Exercise 1](https://mattiasbonte.github.io/css-framework-challenge/index.html)
+- [Exercise 2](https://mattiasbonte.github.io/css-framework-challenge/part2.html)
 
 ### Exercise 1
 
